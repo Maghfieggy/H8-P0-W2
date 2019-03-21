@@ -2,11 +2,14 @@ function angkaPrima(angka) {
   // you can only write your code here!
    var a = true;
   for (var i = angka-1; i>1 ;i--){
-  	if (angka % i == 0){
+  	if (angka % i == 0 ){
   		
   		a = false;
 
   }
+  }
+  if (angka===1){
+  	a =false;
   }
   return a;
 }
